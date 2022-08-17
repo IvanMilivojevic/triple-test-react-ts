@@ -1,0 +1,52 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest/globals": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "prettier/react",
+    "plugin:react-hooks/recommended",
+    "plugin:testing-library/react",
+    "plugin:jest/recommended",
+    "plugin:jest-dom/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "react-hooks",
+    "jsx-a11y",
+    "prettier",
+    "import",
+    "testing-library",
+    "jest",
+    "jest-dom",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "linebreak-style": "off",
+    "object-curly-newline": "off",
+    "react/jsx-filename-extension": ["error", { "extensions": [".ts", ".tsx"] }],
+    "react/function-component-definition": "off",
+    "comma-dangle": "off",
+    "arrow-body-style": "off",
+    "no-restricted-exports": "off",
+    "no-shadow": "off",
+    "quotes": ["error", "double", { "allowTemplateLiterals": true }],
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": "off",
+    "no-unused-vars": "off",
+    "no-nested-ternary": "off"
+  }
+}
